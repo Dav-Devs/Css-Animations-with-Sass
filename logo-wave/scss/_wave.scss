@@ -1,0 +1,57 @@
+.wave-container {
+    width: 200px;
+    height: 200px;
+    margin: 13em auto;
+    position: relative;
+
+    .in_wave {
+        // background: $winter-nova;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        animation: wave-form 4s infinite;
+    }
+
+    .in_wave:nth-child(1) {
+        animation-delay: 4s;
+    }
+
+    .in_wave:nth-child(2) {
+        animation-delay: 3.5s;
+    }
+
+    .in_wave:nth-child(3) {
+        animation-delay: 3s;
+    }
+
+    .in_wave:nth-child(4) {
+        animation-delay: 2.5s;
+    }
+
+    .in_wave:nth-child(5) {
+        animation-delay: 2s;
+    }
+
+    .in_wave:nth-child(6) {
+        animation-delay: 1.5s;
+    }
+
+    .in_wave:nth-child(7) {
+        animation-delay: 1s;
+    }
+
+    .in_wave:nth-child(8) {
+        animation-delay: 0.5s;
+    }
+
+    .img {
+        position: absolute;
+        top: 23%;
+        left: 23%;
+        animation: fade-in-out 0.95s infinite;
+    }
+}

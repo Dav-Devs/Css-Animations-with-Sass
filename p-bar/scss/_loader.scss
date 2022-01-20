@@ -1,0 +1,35 @@
+.ld_p {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $premium-dark;
+
+    .cnt {
+        width: 80%;
+        position: relative;
+        text-align: center;
+
+        p {
+            font-size: 85px;
+            line-height: 85px;
+            color: transparentize($color: $blu-white, $amount: 0.413);
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 85px;
+            line-height: 85px;
+            color: transparentize($color: #ff0844, $amount: 0.389);
+        }
+
+        hr {
+            background: $lovely-dream;
+            border: none;
+            height: 5px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+    }
+}

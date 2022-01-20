@@ -1,0 +1,31 @@
+@keyframes move-ball {
+    0% {
+        box-shadow: $key-shade-0;
+        filter: brightness(1.1);
+        transform: translateY(0) scale(1);
+    }
+
+    25% {
+        box-shadow: $key-shade-25;
+        filter: brightness(1);
+        transform: translateY(-17.5px) scale(0.75);
+    }
+
+    50% {
+        box-shadow: $key-shade-0;
+        filter: brightness(0.8);
+        transform: translateY(0) scale(0.5);
+    }
+
+    75% {
+        box-shadow: $key-shade-75;
+        filter: brightness(1);
+        transform: translateY(17.5px) scale(0.75);
+    }
+
+    100% {
+        box-shadow: $key-shade-0;
+        filter: brightness(1.1);
+        transform: translateY(0) scale(1);
+    }
+}

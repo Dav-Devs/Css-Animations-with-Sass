@@ -1,0 +1,15 @@
+/* Logo Wave By David Gold */
+
+@import url('/assets/font.css');/* locally hosted Google Fonts */
+@import "vars";
+
+* {
+    font-family: $font-livvic;
+    transition: all 1s ease-in-out;
+}
+
+@import "colors";
+@import "gradients";
+@import "base";
+@import "wave";
+@import "anim";

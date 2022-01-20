@@ -1,0 +1,33 @@
+.ld {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .in_ld {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $dry-red;
+        display: inline-block;
+        animation: move-ball 1s infinite linear;
+    }
+
+    .in_ld:nth-child(2) {
+        background: $blue-wonder;
+        animation-delay: -0.2s;
+    }
+    .in_ld:nth-child(3) {
+        background: $early-growth;
+        animation-delay: -0.4s;
+    }
+    .in_ld:nth-child(4) {
+        background: $fruit-blend;
+        animation-delay: -0.6s;
+    }
+    .in_ld:nth-child(5) {
+        background: $purple-division;
+        animation-delay: -0.8s;
+    }
+}

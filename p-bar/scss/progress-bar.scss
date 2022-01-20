@@ -1,0 +1,15 @@
+/* Progress Bar By David Gold */
+
+@import url('/assets/font.css');/* locally hosted Google Fonts */
+@import "vars";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-nunito;
+}
+
+@import "colors";
+@import "gradients";
+@import "loader";
